@@ -131,6 +131,7 @@ static grub_err_t grub_cfs64_endian_fixup(const char* fmt, void* data, const gru
 		}
 		count += ndigits + 1;
 	}
+	return 0;
 #else
 	UNUSED(fmt);
 	UNUSED(data);
